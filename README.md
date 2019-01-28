@@ -1,7 +1,7 @@
-# AddressParticiple
+# Participle
 
 #### 介绍
-地址分词测试
+分词测试
 
 #### 软件架构
 软件架构说明
