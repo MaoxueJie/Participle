@@ -85,6 +85,7 @@ public class Participle {
 	    {
 	    	if (entry.getKey().length()>=2 && !"".equals(entry.getKey().trim()))
 	    	{
+	    		/*
 	    		boolean s = false;
 	    		for(Integer m:(List<Integer>)entry.getValue().get("indexs"))
 	    		{
@@ -97,7 +98,7 @@ public class Participle {
 						s = s||true;
 					}
 	    		}
-	    		if (s)
+	    		if (s)*/
 	    			ci.add(entry);
 	    	}
 	    }
@@ -138,7 +139,7 @@ public class Participle {
 	    		}
 	    	}
 	    }*/
-	    
+	    /*
 	    Collections.sort(ci, new Comparator<Map.Entry<String,Map<String,Object>>>(){
 
 			public int compare(Entry<String, Map<String,Object>> o1, Entry<String, Map<String,Object>> o2) {
@@ -147,7 +148,7 @@ public class Participle {
 				
 			}
 	    	
-	    });
+	    });*/
 	    /*
 	    tempCi = null;
 	    it = ci.iterator();
